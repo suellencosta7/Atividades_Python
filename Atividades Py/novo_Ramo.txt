@@ -1,0 +1,5 @@
+Este texto é um teste de um commit enviando para a nova branch, saindo do ramo principal.
+
+Primeiro criaremos a branch, se aprovada, usaremos o merge , ponto para unir 
+uma branch com raiz principal.
+Podendo excluir a mesma.
