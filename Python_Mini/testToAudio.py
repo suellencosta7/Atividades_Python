@@ -1,3 +1,8 @@
+#Aplicação, transforma texto em audio.
+#Para funcionamento, é necessário a instalçao das bibliotecas
+
+# pip install gtts  e  #pip install playsound
+
 from gtts import gTTS
 from playsound import playsound
 
