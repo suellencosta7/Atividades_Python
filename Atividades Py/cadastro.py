@@ -1,5 +1,10 @@
-#import classe // Estudar por que não funciona usando o import
+import classe # referencia de onde a classe esta
 
-from classe import Pessoa
+#from classe import Pessoa
 
-person= Pessoa ("Maria", 17,"F") 
+maria = classe.Pessoa ("Maria", 17,"F",False,0) 
+joao = classe.Pessoa ("João",23,"M",True,0)
+
+
+joao.Falar()
+joao.Andar()
