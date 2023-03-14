@@ -1,22 +1,23 @@
 class Pessoa: # Ciar classe
-    def __init__ (self, nome, idade, sexo,falar,andar): # Definindo atributos
+    def __init__ (self, nome, idade, sexo,falar,passos): # Definindo atributos
         self.nome = nome # Tornando os parametros acessiveis 
         self.idade = idade 
         self.sexo = sexo
         self.falar = falar 
-        self.andar = andar
+        self.passos = passos
+
         
-    def Andar (self):
-        if self.andar == True:
-          print("Posso andar")
-        else: 
-          print ("Não posso andar")
+    def Andar (self,passos):
+        self.passos += passos
+        
 
     def Falar (self):
        if self.falar == True:
           print("Posso falar")
        else: 
           print ("Não posso falar")
+
+  
 
 
 #person = Pessoa ("Maria",25,"Femenino") # Instansiando a classe e declarando os valore
