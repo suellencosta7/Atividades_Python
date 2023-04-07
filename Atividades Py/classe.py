@@ -5,6 +5,8 @@ class Pessoa: # Ciar classe
         self.sexo = sexo
 
 
+
+
 #person = Pessoa ("Maria",25,"Femenino") # Instansiando a classe e declarando os valore
 #print (person.sexo) # Acessar 
 

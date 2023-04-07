@@ -1,4 +1,0 @@
-este 
-e
-um
-exemplo de testo a ser acessado em python
