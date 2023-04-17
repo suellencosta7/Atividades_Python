@@ -27,3 +27,5 @@ get_years =dicionario.values()
 
 print(get_years)
 print(type(get_years))
+
+dic = []

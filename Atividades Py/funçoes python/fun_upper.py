@@ -18,3 +18,5 @@ def tratar_texto (texto):
 texto = ['dadOS', 'orGanizaDOS', 'Teste "upper"']
 for posicao, texto_tratado in enumerate(texto):
     texto[posicao] = tratar_texto (texto_tratado) # Passagem de função como tratamento 
+
+    #formatação

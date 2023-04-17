@@ -34,3 +34,4 @@ taller(info_person)
 
 # for nome,older in person.items():
 #    print(f'{nome} tem {older} anos.')
+#
